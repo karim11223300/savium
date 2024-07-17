@@ -21,7 +21,7 @@ G = '\033[1;32m'
 L = '\033[1;31m'
 
 own_id= 761058551
-tele_bot='7154902977:AAG-TL-rV8yYzU1KxIbGSouagJLTKuCIzLM'
+tele_bot='7154902977:AAGuuA89QXrr5rMMVWssjWk0XRX-RdeeINg'
 ch='qwertyuioplkjhgfdsazxcvbnm'
 def create():
  global created
@@ -64,7 +64,7 @@ def create():
   print(decoded_data)
 
 
-executor=concurrent.futures.ThreadPoolExecutor(max_workers=2000)
+executor=concurrent.futures.ThreadPoolExecutor(max_workers=800)
 
 while True:
  executor.submit(create)
