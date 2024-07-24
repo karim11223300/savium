@@ -64,7 +64,7 @@ def create():
   print(decoded_data)
 
 
-executor=concurrent.futures.ThreadPoolExecutor(max_workers=800)
+executor=concurrent.futures.ThreadPoolExecutor(max_workers=700)
 
 while True:
  executor.submit(create)
