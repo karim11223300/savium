@@ -1,6 +1,5 @@
 websocket
 requests
-websocket-client
 gunicorn
 Flask
 autopep8==2.0.4
