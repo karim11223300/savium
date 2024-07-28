@@ -20,13 +20,13 @@ failed=0
 G = '\033[1;32m'
 L = '\033[1;31m'
 
-own_id= 761058551
-tele_bot='7058797529:AAGqxVVZOwg7KT556HIIPlD0nhGg6RKrj2E'
+own_id= 6130766876
+tele_bot='7498430905:AAHfk1M3mpeBHc_d-NQQ40NkglKIFMIaGLk'
 ch='qwertyuioplkjhgfdsazxcvbnm'
 def create():
  global created
  global failed
- user=str(random.choice('qwertyuioplkjhgfdsazxcvbnmm')[0])+str(''.join(random.choice(ch) for i in range(8)))
+ user=str(random.choice('qwertyuioplkjhgfdsazxcvbnmm')[0])+str(''.join(random.choice(ch) for i in range(6)))
  
  #user='kdvdfejevfsheh'
  
