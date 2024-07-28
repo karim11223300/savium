@@ -25,7 +25,7 @@ ch='qwertyuioplkjhgfdsazxcvbnm'
 def create():
  global created
  global failed
- user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(5)))
+ user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(6)))
  
  #user='kdvdfejevfsheh'
  
@@ -58,7 +58,7 @@ def create():
   print(decoded_data)
 
 
-executor=concurrent.futures.ThreadPoolExecutor(max_workers=500)
+executor=concurrent.futures.ThreadPoolExecutor(max_workers=800)
 
 while True:
  executor.submit(create)
