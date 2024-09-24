@@ -20,7 +20,7 @@ failed=0
 G = '\033[1;32m'
 R = '\033[1;31m'
 own_id='761058551'
-tele_bot='7058797529:AAEOZfqVr_jvjhDzPXe2vVAnty01iIJZCnk'
+tele_bot='6635344625:AAH4a1YAmMcykAXJHpHgukOT0_ulvygJuaA'
 ch='qwertyuioplkjhgfdsazxcvbnm'
 def create():
  global created
